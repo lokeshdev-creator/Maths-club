@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    display: flex;
+    background: linear-gradient(to right,#f8f9fa,#e9ecef);
+    padding: 30px;
+}
+.container{
+    background: green;
+    padding: 24px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+    width: fit-content;
+}
+.operator{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 45px;
+    color: #343a40;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.matrix-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px 0;
+}
+.matrix-box{
+    text-align: center;
+}
+.matrix-box h3{
+    margin-bottom: 10px;
+}
+input{
+    width: 50px;
+    height: 40px;
+    margin: 5px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #aaa;
+}
+input:disabled{
+    background-color: #f1f3f5;
+    font-weight: bold;
+}
+.buttons{
+    text-align: center;
+    margin-top: 15px;
+}
+button{
+     padding: 10px 15px;
+     margin: 10px;
+     font-size: 16px;
+     border: none;
+     border-radius: 8px;
+     cursor:pointer;
+     background-color: #4c6ef5;
+     color: white;
+}
+button:hover{
+    background-color: #364fc7;
+}
+.result-box{
+    text-align: center;
+    margin-top: 25px;
+}

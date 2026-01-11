@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrics calculator</title>
+    <link rel="stylesheet" href="matric.css">
+</head>
+<body>
+    <div class="container">
+
+   
+    <h1> Matrics calculator</h1>
+    <label>Matrix Size:</label>
+    <select id="size" onchange="createMatrices()">
+        <option value="2">2*2</option>
+        <option value="3">3*3</option>
+    </select>
+    <div class="matrix-container">
+        <div class="matrix-box">
+            <h3>Matrix A</h3>
+            <div id="matrixA"></div>
+        </div>
+        <div id="operator" class="operator">+</div>
+        <div class="matrix-box">
+            <h3>Matrix B</h3>
+            <div id="matrixB"></div>
+
+        </div>  
+    </div>
+    <div class="buttons">
+        <button onclick="add()">Add</button>
+        <button onclick="multiply()">Multiplay</button>
+        <button onclick="subtract()">Subtract</button>
+    </div>
+
+    <div class="result-box">
+        <h3>Result</h3>
+    <div id="result"></div>
+    </div>
+     </div>
+    <script src="app.js"></script>
+</body>
+</html>
